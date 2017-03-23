@@ -110,8 +110,3 @@ There is a not need to reading from props file, not need to casting, not need to
 
 ### by Release build
 Download release jar file and add **props4j-0.1.jar** to your project's classpath
-
-<<<<<<< HEAD
-=======
-
->>>>>>> 2f407e5f5ddd26b3274ab36ab22f2f4a5fc8b26a
