@@ -85,7 +85,7 @@ and human object will be ready for using after the below command is execyted;
 PropertiesBinder.bind(humanObject, propertiesObject);//3
 ``` 
 
-There is a not need reading code, not need casting, not need to usage trim(), not need to initialize or set default value!
+There is a not need to reading from props file, not need to casting, not need to usage trim(), not need to initialize or set default value!
 
 ## Installation to your project
 **Min Java 7 is required** 
