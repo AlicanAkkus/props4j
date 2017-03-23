@@ -7,7 +7,6 @@ import java.util.Properties;
 
 import org.apache.commons.lang.StringUtils;
 
-import com.caysever.props4j.Human;
 import com.caysever.props4j.annotations.Props4J;
 import com.caysever.props4j.enums.FieldType;
 import com.caysever.props4j.utils.PropertiesUtils;
@@ -110,16 +109,6 @@ public class PropertiesBinder {
 			return false;
 		}
 		return true;
-	}
-
-	public static void main(String[] args) throws Exception {
-
-		Properties properties = new Properties();
-		PropertiesUtils.loadProperties("properties/test.properties", properties);
-		Human human = new Human();
-		PropertiesBinder.bind(human, properties);
-
-		System.out.println(human);
 	}
 
 }
