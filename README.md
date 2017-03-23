@@ -13,7 +13,7 @@ You will be able to write fewer lines of code on project.
 
 ## Supported types?
 
-You can these types as follow;
+You can use the these types as follow;
 * integer value or integer array(int, int[])
 * double value or double array(double, double[])
 * float value or float array(float, float[])
