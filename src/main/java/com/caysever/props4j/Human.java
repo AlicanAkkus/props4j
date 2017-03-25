@@ -16,7 +16,7 @@ public class Human {
 	@Props4J(key = "human.gender", defaultValue = "true")
 	Boolean gendersEnabled;
 	@Props4J(key = "human.genders", defaultValue = "", comma = ",")
-	List<Integer> genders = new ArrayList<>();
+	List<String> genders = new ArrayList<>();
 	@Props4J(key = "human.locations", defaultValue = "", comma = ",", delimiter = ":")
 	Map<String, String> humanLocations = new HashMap<>();
 	@Props4J(key = "human.codes", defaultValue = "", comma = ",", delimiter = ":")
@@ -46,11 +46,11 @@ public class Human {
 		this.gendersEnabled = gendersEnabled;
 	}
 
-	public List<Integer> getGenders() {
+	public List<String> getGenders() {
 		return genders;
 	}
 
-	public void setGenders(List<Integer> genders) {
+	public void setGenders(List<String> genders) {
 		this.genders = genders;
 	}
 
